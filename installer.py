@@ -37,7 +37,7 @@ class Installer:
     self.__run_command("sudo cp ../config/erlang.list /etc/apt/sources.list.d/erlang.list")
     self.__run_command("wget -O - http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | sudo apt-key add -")
     self.__run_command("sudo apt-get update")
-    self.__run_command("sudo apt-get install esl-erlang", True)
+    self.__run_command("sudo apt-get install esl-erlang libpam0g-dev", True)
 
     #
     # Python

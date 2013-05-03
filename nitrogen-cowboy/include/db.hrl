@@ -1,0 +1,5 @@
+-define(DB_USER, "benchmarkdbuser").
+-define(DB_PASS, "benchmarkdbpass").
+-define(DB_PORT, 3306).
+-define(DB_DB, "hello_world").
+-define(DB_HOST, begin {ok, Host} = application:get_env(nitrogen, db_host), Host end).

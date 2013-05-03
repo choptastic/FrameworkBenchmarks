@@ -1,0 +1,13 @@
+{
+  "framework": "nitrogen-cowboy",
+  "tests": [{
+    "default": {
+      "setup_file": "setup_erlang",
+      "json_url": "/json",
+      "db_url": "/dbpage",
+      "query_url": "/dbpage?queries=",
+      "fortune_url": "/fortune",
+      "port": 8080,
+      "sort": 90
+  }}]
+}
